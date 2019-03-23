@@ -1,0 +1,13 @@
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\libhostpolicy.so
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\libhostfxr.so
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api.deps.json
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api.runtimeconfig.json
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api.runtimeconfig.dev.json
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api.dll
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\bin\Release\netcoreapp2.0\linux-x64\senseilabs_api.pdb
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\obj\Release\netcoreapp2.0\linux-x64\senseilabs_api.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\obj\Release\netcoreapp2.0\linux-x64\senseilabs_api.AssemblyInfoInputs.cache
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\obj\Release\netcoreapp2.0\linux-x64\senseilabs_api.AssemblyInfo.cs
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\obj\Release\netcoreapp2.0\linux-x64\senseilabs_api.dll
+D:\Desenvolvimento\vanhackathon2019\senseilabs_api\obj\Release\netcoreapp2.0\linux-x64\senseilabs_api.pdb

@@ -1,5 +1,5 @@
-# vanhackathon2019
-Vanhackathon 2019 (São Paulo Recruiting Fair) - Challenge
+# Vanhackathon 2019
+[VanHack](http://vanhack.com) Vanhackathon 2019 (São Paulo Recruiting Fair) - Challenge
 
 ## Introduction
 As we know, it is a challenge to the companies to benchmark info about other companies performance indicators.
@@ -36,10 +36,16 @@ Store Innovation Data information from your company to share with the another co
 }
 ````
 
-Parameter | Value
---------- | -----
-businessNumber | String in canadian format "9999999998AA9999" (9 numbers, 2 letters and 4 numbers)
-year | Integer number of the year you are sharing data
-month | Integer number of the year you are sharing data
-numberOfInnovations | Integer with the current number of innovations
-numberOfProducts | Integer with the current number of services
+Parameter | Type | Value
+--------- | ---- | -----
+businessNumber | String | in canadian format "9999999998AA9999" (9 numbers, 2 letters and 4 numbers)
+year | Integer | number of the year you are sharing data
+month | Integer | number of the year you are sharing data
+numberOfInnovations | Integer | current number of innovations
+numberOfProducts | Integer | current number of services
+
+### Technologies used
+* .NET Core 2.0 (C#)
+* AWS RDS SQL Server Database
+* AWS ECS Instance
+* Docker
