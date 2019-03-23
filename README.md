@@ -15,10 +15,13 @@ All of this info and shared data are fictitious just for the "VanHackathon" Soft
 ### GET /innovation
 Get market average "Innovation Rate" from stored data from the last moth, considering the current date
 
-### GET/innovation/{businessNumber}
+### GET /innovation/{businessNumber}
 Get Innovation Rate from your company stored into database from the last moth, considering the current date
 
-{businessNumber} in canadian format "999999999AA9999" (9 numbers, 2 letters and 4 numbers)
+* {businessNumber} in canadian format "9999999998AA9999" (9 numbers, 2 letters and 4 numbers)
+  * the nine-digit Business Number (BN) that identifies your business 
+  * a two-letter identifier for the program type 
+  * a four-digit reference number for the program account
 
 ### POST
 Store Innovation Data information from your company to share with the another companies, and get feed back about your innovation data for the year/month you are sending data
@@ -32,3 +35,11 @@ Store Innovation Data information from your company to share with the another co
 	"numberOfProducts": 27
 }
 ````
+
+Parameter | Value
+--------- | -----
+businessNumber | String in canadian format "9999999998AA9999" (9 numbers, 2 letters and 4 numbers)
+year | Integer number of the year you are sharing data
+month | Integer number of the year you are sharing data
+numberOfInnovations | Integer with the current number of innovations
+numberOfProducts | Integer with the current number of services
