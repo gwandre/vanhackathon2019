@@ -12,11 +12,23 @@ All of this info and shared data are fictitious just for the "VanHackathon" Soft
 
 ## Available Methods
 
-### Get average Innovation Rate from stored data from the last moth, considering the current date
+### GET /innovation
+Get market average "Innovation Rate" from stored data from the last moth, considering the current date
 
-Method: GET
-PATH: /
+### GET/innovation/{businessNumber}
+Get Innovation Rate from your company stored into database from the last moth, considering the current date
 
-### Get Innovation Rate from your company stored into database from the last moth, considering the current date
+{businessNumber} in canadian format "999999999AA9999" (9 numbers, 2 letters and 4 numbers)
 
-### Store Innovation Data information from your company to share with the another companies, and get feed back about your innovation data for the year/month you are sending data
+### POST
+Store Innovation Data information from your company to share with the another companies, and get feed back about your innovation data for the year/month you are sending data
+
+```JSON
+{
+	"businessNumber": "999999999LL0001",
+	"year": 2019,
+	"month": 3,
+	"numberOfInnovations": 2,
+	"numberOfProducts": 27
+}
+````
